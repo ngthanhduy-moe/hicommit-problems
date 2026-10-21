@@ -12,5 +12,10 @@ int main() {
   if(c>a){
     printf("%d",c);
   }
+  if(c>b){
+    printf("%d,c")
+  }
+    
+  }
   return 0;
 }
