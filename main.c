@@ -2,12 +2,12 @@
 
 int main() {
   int a,b,c;
-    scanf("%d",&a,&b,&c);
+    scanf("%d %d %d",&a,&b,&c);
   if(a>b){
-    printf("%d",&a);
+    printf("%d",a);
   }
   else{
-    printf("%d",&b);
+    printf("%d",b);
   }
   
   return 0;
