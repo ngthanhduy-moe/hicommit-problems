@@ -3,12 +3,13 @@
 int main() {
   int a;
 
-  printf("Nhap so nguyen:",%d);
+  printf("Nhap so nguyen: , %d");
   scanf("%d",&a);
 
   if(a%2){
     printf("LE");
-  else
+  }
+  else{
     printf("CHAN");
   }
   return 0;
