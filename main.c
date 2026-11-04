@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-float dtb,drl;
+  float dtb,drl;
   scanf("%f", &dtb);
   scanf("%f", &drl);
   if (dtb >= 9.0 && drl >= 90) {
